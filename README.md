@@ -69,8 +69,9 @@ Returns JSON object with all sensor readings:
   "mode": "pot",
   "button": 1
 }
-
+```
 ### GET /pins
+```json
 {
   "pins": [
     {"pin": 0, "value": 1},
@@ -79,6 +80,7 @@ Returns JSON object with all sensor readings:
     {"pin": 5, "value": 1}
   ]
 }
+```
 
 ### GET /led?mode=pot
 
